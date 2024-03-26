@@ -5,10 +5,28 @@ body { background-color: rgb(0, 255, 68);
     justify-content: center;
     justify-items: center;
     text-align: center;
-} .imagem-cabecalho{width: 200px;}
+} 
 
-.Título-cabecalho
+.imagem-cabecalho{width: 200px;}
+
+
+.titulocabecalho
 {display: inline-block;
-     margin: 0 16px;
-     padding: 100px 0;
-     font-size: 40px;}
+  margin:0 16px;
+  padding: 100px 0;
+  font-size: 40px;}
+
+
+  .cabecalho{
+  background-color: rgb(27, 117, 197);
+  color: blue;
+  display: flex;
+  justify-content: space-around;
+  padding: 24px 0;}
+
+
+   .cabecalho-item
+  {display: inline-block;
+  margin: 0  16px;
+  padding: 24px 0;
+  font-size: 24px;}
